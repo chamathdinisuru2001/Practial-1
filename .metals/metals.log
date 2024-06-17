@@ -1,0 +1,1190 @@
+2024.06.17 18:33:41 INFO  Started: Metals version 1.3.1 in folders 'C:\Users\ASUS\Desktop\Scala\Practial 1' for client Visual Studio Code 1.90.0.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@12b39243]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@5ad9a143]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@12b39243]
+2024.06.17 18:33:41 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.17 18:33:42 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:33:42 INFO  Running List(C:\Users\ASUS\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\ASUS\Desktop\Scala\Practial 1)
+2024.06.17 18:33:42 INFO  Attempting to connect to the build server...
+2024.06.17 18:33:42 INFO  Running BSP server List(C:\Users\ASUS\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ASUS\Desktop\Scala\Practial 1\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\ASUS\Desktop\Scala\Practial 1\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\ASUS\Desktop\Scala\Practial 1\.scala-build\ide-envs.json, C:\Users\ASUS\Desktop\Scala\Practial 1)
+2024.06.17 18:33:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ASUS\Desktop\Scala\Practial 1\.metals\bsp.trace.json or C:\Users\ASUS\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.17 18:33:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.pom
+2024.06.17 18:33:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.pom
+2024.06.17 18:33:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.pom.sha1
+2024.06.17 18:33:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.pom.sha1
+2024.06.17 18:33:43 INFO  BSP server: Error: java.lang.Exception: Error getting Bloop class path
+2024.06.17 18:33:43 INFO  BSP server: For more details, please see 'C:\Users\ASUS\Desktop\Scala\Practial 1\.scala-build\stacktraces\1718629423-9987522395120073694.log'
+2024.06.17 18:33:45 WARN  Could not find semantic tokens for: file:///C:/Users/ASUS/Desktop/Scala/Practial%201/Q1.scala
+2024.06.17 18:34:43 ERROR Timeout waiting for 'build/initialize' response
+2024.06.17 18:34:43 WARN  Retrying connection to the build server scala-cli
+2024.06.17 18:34:43 INFO  Running BSP server List(C:\Users\ASUS\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ASUS\Desktop\Scala\Practial 1\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\ASUS\Desktop\Scala\Practial 1\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\ASUS\Desktop\Scala\Practial 1\.scala-build\ide-envs.json, C:\Users\ASUS\Desktop\Scala\Practial 1)
+2024.06.17 18:34:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ASUS\Desktop\Scala\Practial 1\.metals\bsp.trace.json or C:\Users\ASUS\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.17 18:34:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.pom
+2024.06.17 18:34:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.pom
+2024.06.17 18:34:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.pom
+2024.06.17 18:34:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom
+2024.06.17 18:34:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-2/bloop-backend_2.12-1.5.17-sc-2.pom
+2024.06.17 18:34:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.1.1/scala-debug-adapter_2.12-4.1.1.pom
+2024.06.17 18:34:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.0/bloop-config_2.12-2.0.0.pom
+2024.06.17 18:34:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.0/bloop-config_2.12-2.0.0.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.1.1/scala-debug-adapter_2.12-4.1.1.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-2/bloop-backend_2.12-1.5.17-sc-2.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.14/logback-parent-1.4.14.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.14/logback-parent-1.4.14.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.10.0/test-agent-1.10.0.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+30/com-microsoft-java-debug-core-0.34.0+30.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.0/librarymanagement-ivy_2.12-1.10.0.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-2/bloop-shared_2.12-1.5.17-sc-2.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.12.0/scala-collection-compat_2.12-2.12.0.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+30/com-microsoft-java-debug-core-0.34.0+30.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.0/librarymanagement-ivy_2.12-1.10.0.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.1/sourcecode_2.12-0.4.1.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.10.0/test-agent-1.10.0.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.5/parsers_2.12-4.9.5.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-2/bloop-shared_2.12-1.5.17-sc-2.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.pom
+2024.06.17 18:34:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.12.0/scala-collection-compat_2.12-2.12.0.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.1/sourcecode_2.12-0.4.1.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.5/parsers_2.12-4.9.5.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.0/librarymanagement-core_2.12-1.10.0.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.0/zinc_2.12-1.10.0.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.0/librarymanagement-core_2.12-1.10.0.pom
+2024.06.17 18:34:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2024.06.17 18:34:48 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0.pom
+2024.06.17 18:34:48 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2024.06.17 18:34:48 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.0/zinc_2.12-1.10.0.pom
+2024.06.17 18:34:48 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.pom
+2024.06.17 18:34:48 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.pom
+2024.06.17 18:34:48 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/69/commons-parent-69.pom
+2024.06.17 18:34:48 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.11.0/gson-parent-2.11.0.pom
+2024.06.17 18:34:48 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.11.0/gson-parent-2.11.0.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/commons/commons-parent/69/commons-parent-69.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.5/common_2.12-4.9.5.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.0/util-logging_2.12-1.10.0.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/mwiede/jsch/0.2.17/jsch-0.2.17.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.0/zinc-compile-core_2.12-1.10.0.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.5/common_2.12-4.9.5.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.0/zinc-core_2.12-1.10.0.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.0/util-position_2.12-1.10.0.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.0/zinc-classfile_2.12-1.10.0.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/mwiede/jsch/0.2.17/jsch-0.2.17.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.0/io_2.12-1.10.0.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.0/util-logging_2.12-1.10.0.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.0/zinc-core_2.12-1.10.0.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.0/util-cache_2.12-1.10.0.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.0/io_2.12-1.10.0.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5/jsoniter-scala-core_2.12-2.13.5.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.0/util-position_2.12-1.10.0.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.0/zinc-persist_2.12-1.10.0.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.0/zinc-classfile_2.12-1.10.0.pom
+2024.06.17 18:34:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.0/zinc-persist_2.12-1.10.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.0/zinc-compile-core_2.12-1.10.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5/jsoniter-scala-core_2.12-2.13.5.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.0/util-cache_2.12-1.10.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_parent/2.27.0/error_prone_parent-2.27.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/google/errorprone/error_prone_parent/2.27.0/error_prone_parent-2.27.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.0/zinc-classpath_2.12-1.10.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.0/core-macros_2.12-1.10.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.0/compiler-interface-1.10.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.3.0/scala-xml_2.12-2.3.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.0/util-relation_2.12-1.10.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.0/util-control_2.12-1.10.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.0/zinc-classpath_2.12-1.10.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.0/zinc-apiinfo_2.12-1.10.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.0/util-relation_2.12-1.10.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.3.0/scala-xml_2.12-2.3.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.0/collections_2.12-1.10.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.0/core-macros_2.12-1.10.0.pom
+2024.06.17 18:34:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.16/zero-allocation-hashing-0.16.pom
+2024.06.17 18:34:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.0/compiler-interface-1.10.0.pom
+2024.06.17 18:34:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.0/util-interface-1.10.0.pom
+2024.06.17 18:34:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.0/zinc-persist-core-assembly-1.10.0.pom
+2024.06.17 18:34:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.0/zinc-apiinfo_2.12-1.10.0.pom
+2024.06.17 18:34:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.0/collections_2.12-1.10.0.pom
+2024.06.17 18:34:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.0/zinc-persist-core-assembly-1.10.0.pom
+2024.06.17 18:34:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.0/util-interface-1.10.0.pom
+2024.06.17 18:34:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.16/zero-allocation-hashing-0.16.pom
+2024.06.17 18:34:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.0/util-control_2.12-1.10.0.pom
+2024.06.17 18:34:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/openhft/java-parent-pom/1.1.28/java-parent-pom-1.1.28.pom
+2024.06.17 18:34:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/openhft/java-parent-pom/1.1.28/java-parent-pom-1.1.28.pom
+2024.06.17 18:34:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/openhft/root-parent-pom/1.2.12/root-parent-pom-1.2.12.pom
+2024.06.17 18:34:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/openhft/root-parent-pom/1.2.12/root-parent-pom-1.2.12.pom
+2024.06.17 18:34:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.0/compiler-bridge_2.12-1.10.0.pom
+2024.06.17 18:34:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.0/compiler-bridge_2.12-1.10.0.pom
+2024.06.17 18:34:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/mwiede/jsch/0.2.17/jsch-0.2.17.jar
+2024.06.17 18:34:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.0/util-position_2.12-1.10.0.jar
+2024.06.17 18:34:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.1/sourcecode_2.12-0.4.1.jar
+2024.06.17 18:34:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+30/com-microsoft-java-debug-core-0.34.0+30.jar
+2024.06.17 18:34:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.0/bloop-config_2.12-2.0.0.jar
+2024.06.17 18:34:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.0/zinc_2.12-1.10.0.jar
+2024.06.17 18:34:54 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.0/util-position_2.12-1.10.0.jar
+2024.06.17 18:34:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-2/bloop-backend_2.12-1.5.17-sc-2.jar
+2024.06.17 18:34:54 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.1/sourcecode_2.12-0.4.1.jar
+2024.06.17 18:34:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.0/io_2.12-1.10.0.jar
+2024.06.17 18:34:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.0/bloop-config_2.12-2.0.0.jar
+2024.06.17 18:34:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.10.0/test-agent-1.10.0.jar
+2024.06.17 18:34:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.0/zinc_2.12-1.10.0.jar
+2024.06.17 18:34:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.0/core-macros_2.12-1.10.0.jar
+2024.06.17 18:34:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+30/com-microsoft-java-debug-core-0.34.0+30.jar
+2024.06.17 18:34:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.jar
+2024.06.17 18:34:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.10.0/test-agent-1.10.0.jar
+2024.06.17 18:34:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.0/util-relation_2.12-1.10.0.jar
+2024.06.17 18:34:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.0/util-relation_2.12-1.10.0.jar
+2024.06.17 18:34:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.jar
+2024.06.17 18:34:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/mwiede/jsch/0.2.17/jsch-0.2.17.jar
+2024.06.17 18:34:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.0/zinc-apiinfo_2.12-1.10.0.jar
+2024.06.17 18:34:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.0/core-macros_2.12-1.10.0.jar
+2024.06.17 18:34:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.0/compiler-interface-1.10.0.jar
+2024.06.17 18:34:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.jar
+2024.06.17 18:34:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.5/parsers_2.12-4.9.5.jar
+2024.06.17 18:34:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.0/io_2.12-1.10.0.jar
+2024.06.17 18:34:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.0/zinc-core_2.12-1.10.0.jar
+2024.06.17 18:34:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.0/compiler-interface-1.10.0.jar
+2024.06.17 18:34:58 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.1.1/scala-debug-adapter_2.12-4.1.1.jar
+2024.06.17 18:34:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.0/zinc-apiinfo_2.12-1.10.0.jar
+2024.06.17 18:34:58 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5/jsoniter-scala-core_2.12-2.13.5.jar
+2024.06.17 18:35:03 INFO  BSP server: Still downloading:
+2024.06.17 18:35:03 INFO  BSP server: https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-2/bloop-backend_2.12-1.5.17-sc-2.jar (85.29 %, 586251 / 687342)
+2024.06.17 18:35:03 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.0/zinc-core_2.12-1.10.0.jar (43.33 %, 211297 / 487673)
+2024.06.17 18:35:03 INFO  BSP server: https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5/jsoniter-scala-core_2.12-2.13.5.jar (37.30 %, 65536 / 175721)
+2024.06.17 18:35:03 INFO  BSP server: https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.5/parsers_2.12-4.9.5.jar (32.48 %, 293625 / 903929)
+2024.06.17 18:35:03 INFO  BSP server: https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.jar (19.30 %, 291830 / 1511965)
+2024.06.17 18:35:03 INFO  BSP server: https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.1.1/scala-debug-adapter_2.12-4.1.1.jar (11.67 %, 114393 / 979922)
+2024.06.17 18:35:03 INFO  BSP server: 
+2024.06.17 18:35:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-2/bloop-backend_2.12-1.5.17-sc-2.jar
+2024.06.17 18:35:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.0/compiler-bridge_2.12-1.10.0.jar
+2024.06.17 18:35:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5/jsoniter-scala-core_2.12-2.13.5.jar
+2024.06.17 18:35:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar
+2024.06.17 18:35:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.0/zinc-core_2.12-1.10.0.jar
+2024.06.17 18:35:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0.jar
+2024.06.17 18:35:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar
+2024.06.17 18:35:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.0/collections_2.12-1.10.0.jar
+2024.06.17 18:35:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0.jar
+2024.06.17 18:35:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.0/librarymanagement-core_2.12-1.10.0.jar
+2024.06.17 18:35:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.0/compiler-bridge_2.12-1.10.0.jar
+2024.06.17 18:35:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.0/zinc-compile-core_2.12-1.10.0.jar
+2024.06.17 18:35:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.5/parsers_2.12-4.9.5.jar
+2024.06.17 18:35:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.16/zero-allocation-hashing-0.16.jar
+2024.06.17 18:35:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.16/zero-allocation-hashing-0.16.jar
+2024.06.17 18:35:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar
+2024.06.17 18:35:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.0/zinc-compile-core_2.12-1.10.0.jar
+2024.06.17 18:35:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2024.06.17 18:35:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2024.06.17 18:35:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar
+2024.06.17 18:35:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.1.1/scala-debug-adapter_2.12-4.1.1.jar
+2024.06.17 18:35:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2024.06.17 18:35:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.0/collections_2.12-1.10.0.jar
+2024.06.17 18:35:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.0/util-logging_2.12-1.10.0.jar
+2024.06.17 18:35:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar
+2024.06.17 18:35:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.3.0/scala-xml_2.12-2.3.0.jar
+2024.06.17 18:35:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.3.0/scala-xml_2.12-2.3.0.jar
+2024.06.17 18:35:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar
+2024.06.17 18:35:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.0/librarymanagement-core_2.12-1.10.0.jar
+2024.06.17 18:35:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.0/zinc-classpath_2.12-1.10.0.jar
+2024.06.17 18:35:15 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.0/util-logging_2.12-1.10.0.jar
+2024.06.17 18:35:15 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar
+2024.06.17 18:35:15 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.0/zinc-classpath_2.12-1.10.0.jar
+2024.06.17 18:35:15 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.0/zinc-persist_2.12-1.10.0.jar
+2024.06.17 18:35:21 INFO  BSP server: Still downloading:
+2024.06.17 18:35:21 INFO  BSP server: https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.jar (56.14 %, 848886 / 1511965)
+2024.06.17 18:35:21 INFO  BSP server: https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar (38.33 %, 114405 / 298435)
+2024.06.17 18:35:21 INFO  BSP server: https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar (29.57 %, 2669999 / 9028627)
+2024.06.17 18:35:21 INFO  BSP server: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (5.73 %, 586183 / 10225728)
+2024.06.17 18:35:21 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (3.39 %, 373137 / 10993868)
+2024.06.17 18:35:21 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.0/zinc-persist_2.12-1.10.0.jar (0.00 %, 0 / 364022)
+2024.06.17 18:35:21 INFO  BSP server: 
+2024.06.17 18:35:25 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar
+2024.06.17 18:35:25 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.0/util-cache_2.12-1.10.0.jar
+2024.06.17 18:35:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.0/util-cache_2.12-1.10.0.jar
+2024.06.17 18:35:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.0/util-interface-1.10.0.jar
+2024.06.17 18:35:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.0/util-interface-1.10.0.jar
+2024.06.17 18:35:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2024.06.17 18:35:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.0/zinc-persist_2.12-1.10.0.jar
+2024.06.17 18:35:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.0/zinc-persist-core-assembly-1.10.0.jar
+2024.06.17 18:35:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2024.06.17 18:35:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.0/util-control_2.12-1.10.0.jar
+2024.06.17 18:35:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.0/util-control_2.12-1.10.0.jar
+2024.06.17 18:35:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.0/zinc-classfile_2.12-1.10.0.jar
+2024.06.17 18:35:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.jar
+2024.06.17 18:35:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.0/librarymanagement-ivy_2.12-1.10.0.jar
+2024.06.17 18:35:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.0/zinc-classfile_2.12-1.10.0.jar
+2024.06.17 18:35:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.5/common_2.12-4.9.5.jar
+2024.06.17 18:35:31 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.0/librarymanagement-ivy_2.12-1.10.0.jar
+2024.06.17 18:35:31 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.jar
+2024.06.17 18:35:31 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.jar
+2024.06.17 18:35:31 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar
+2024.06.17 18:35:36 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar
+2024.06.17 18:35:36 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-2/bloop-shared_2.12-1.5.17-sc-2.jar
+2024.06.17 18:35:36 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-2/bloop-shared_2.12-1.5.17-sc-2.jar
+2024.06.17 18:35:36 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.12.0/scala-collection-compat_2.12-2.12.0.jar
+2024.06.17 18:35:38 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.12.0/scala-collection-compat_2.12-2.12.0.jar
+2024.06.17 18:35:38 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar
+2024.06.17 18:35:38 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.0/zinc-persist-core-assembly-1.10.0.jar
+2024.06.17 18:35:38 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.5/common_2.12-4.9.5.jar
+2024.06.17 18:35:39 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar
+2024.06.17 18:35:43 ERROR Timeout waiting for 'build/initialize' response
+2024.06.17 18:35:43 WARN  Retrying connection to the build server scala-cli
+2024.06.17 18:35:43 INFO  Running BSP server List(C:\Users\ASUS\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ASUS\Desktop\Scala\Practial 1\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\ASUS\Desktop\Scala\Practial 1\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\ASUS\Desktop\Scala\Practial 1\.scala-build\ide-envs.json, C:\Users\ASUS\Desktop\Scala\Practial 1)
+2024.06.17 18:35:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ASUS\Desktop\Scala\Practial 1\.metals\bsp.trace.json or C:\Users\ASUS\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.17 18:35:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar
+2024.06.17 18:35:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2024.06.17 18:35:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar
+2024.06.17 18:35:50 INFO  BSP server: Still downloading:
+2024.06.17 18:35:50 INFO  BSP server: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (63.73 %, 6517191 / 10225728)
+2024.06.17 18:35:50 INFO  BSP server: https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar (38.28 %, 3456431 / 9028627)
+2024.06.17 18:35:50 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (8.01 %, 881041 / 10993868)
+2024.06.17 18:35:50 INFO  BSP server: 
+2024.06.17 18:35:56 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:35:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:35:58 WARN  Could not find semantic tokens for: file:///C:/Users/ASUS/Desktop/Scala/Practial%201/Q1.scala
+2024.06.17 18:35:59 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:35:59 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:35:59 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:35:59 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:00 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:01 INFO  BSP server: Still downloading:
+2024.06.17 18:36:01 INFO  BSP server: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (64.37 %, 6582727 / 10225728)
+2024.06.17 18:36:01 INFO  BSP server: https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar (38.28 %, 3456431 / 9028627)
+2024.06.17 18:36:01 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (10.70 %, 1175953 / 10993868)
+2024.06.17 18:36:01 INFO  BSP server: 
+2024.06.17 18:36:02 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:06 INFO  BSP server: Still downloading:
+2024.06.17 18:36:06 INFO  BSP server: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (64.37 %, 6582727 / 10225728)
+2024.06.17 18:36:06 INFO  BSP server: https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar (38.28 %, 3456431 / 9028627)
+2024.06.17 18:36:06 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (24.11 %, 2650513 / 10993868)
+2024.06.17 18:36:06 INFO  BSP server: 
+2024.06.17 18:36:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:12 INFO  BSP server: Still downloading:
+2024.06.17 18:36:12 INFO  BSP server: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (67.26 %, 6877639 / 10225728)
+2024.06.17 18:36:12 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (44.23 %, 4862353 / 10993868)
+2024.06.17 18:36:12 INFO  BSP server: https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar (38.28 %, 3456431 / 9028627)
+2024.06.17 18:36:12 INFO  BSP server: 
+2024.06.17 18:36:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:19 INFO  BSP server: Still downloading:
+2024.06.17 18:36:19 INFO  BSP server: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (74.79 %, 7647687 / 10225728)
+2024.06.17 18:36:19 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (54.21 %, 5960081 / 10993868)
+2024.06.17 18:36:19 INFO  BSP server: https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar (38.28 %, 3456431 / 9028627)
+2024.06.17 18:36:19 INFO  BSP server: 
+2024.06.17 18:36:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jun 17, 2024 6:36:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 94
+2024.06.17 18:36:24 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:24 INFO  BSP server: Still downloading:
+2024.06.17 18:36:24 INFO  BSP server: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (82.16 %, 8401351 / 10225728)
+2024.06.17 18:36:24 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (61.96 %, 6812049 / 10993868)
+2024.06.17 18:36:24 INFO  BSP server: https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar (38.28 %, 3456431 / 9028627)
+2024.06.17 18:36:24 INFO  BSP server: 
+2024.06.17 18:36:24 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:24 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:24 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:28 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:30 INFO  BSP server: Still downloading:
+2024.06.17 18:36:30 INFO  BSP server: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (94.82 %, 9695687 / 10225728)
+2024.06.17 18:36:30 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (74.18 %, 8155537 / 10993868)
+2024.06.17 18:36:30 INFO  BSP server: https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar (38.28 %, 3456431 / 9028627)
+2024.06.17 18:36:30 INFO  BSP server: 
+2024.06.17 18:36:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:32 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2024.06.17 18:36:33 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar
+2024.06.17 18:36:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:40 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:40 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:42 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:42 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:43 ERROR Timeout waiting for 'build/initialize' response
+2024.06.17 18:36:43 WARN  Retrying connection to the build server scala-cli
+2024.06.17 18:36:43 INFO  Running BSP server List(C:\Users\ASUS\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ASUS\Desktop\Scala\Practial 1\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\ASUS\Desktop\Scala\Practial 1\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\ASUS\Desktop\Scala\Practial 1\.scala-build\ide-envs.json, C:\Users\ASUS\Desktop\Scala\Practial 1)
+2024.06.17 18:36:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ASUS\Desktop\Scala\Practial 1\.metals\bsp.trace.json or C:\Users\ASUS\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.17 18:36:43 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar
+2024.06.17 18:36:43 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:45 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:47 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:47 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:49 INFO  BSP server: Still downloading:
+2024.06.17 18:36:49 INFO  BSP server: https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar (59.88 %, 5406127 / 9028627)
+2024.06.17 18:36:49 INFO  BSP server: 
+2024.06.17 18:36:51 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:51 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:51 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:52 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:52 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:52 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:54 INFO  BSP server: Still downloading:
+2024.06.17 18:36:54 INFO  BSP server: https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar (83.11 %, 7503279 / 9028627)
+2024.06.17 18:36:54 INFO  BSP server: 
+2024.06.17 18:36:56 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar
+2024.06.17 18:36:57 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:36:57 INFO  BSP server: Starting compilation server
+2024.06.17 18:37:01 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.4.2/scala3-sbt-bridge-3.4.2.pom
+2024.06.17 18:37:01 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.4.2/scala3-sbt-bridge-3.4.2.pom
+2024.06.17 18:37:01 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.4.2/scala3-sbt-bridge-3.4.2.jar
+2024.06.17 18:37:01 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.4.2/scala3-sbt-bridge-3.4.2.jar
+2024.06.17 18:37:02 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.2/scala3-library_3-3.4.2-sources.jar
+2024.06.17 18:37:02 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.2/scala3-library_3-3.4.2-sources.jar
+2024.06.17 18:37:02 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom
+2024.06.17 18:37:02 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom
+2024.06.17 18:37:02 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2024.06.17 18:37:08 INFO  BSP server: Still downloading:
+2024.06.17 18:37:08 INFO  BSP server: https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar (85.52 %, 2127647 / 2487777)
+2024.06.17 18:37:08 INFO  BSP server: 
+2024.06.17 18:37:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2024.06.17 18:37:09 INFO  time: Connected to build server in 3m26s
+2024.06.17 18:37:09 INFO  Connected to Build server: scala-cli v1.3.2
+2024.06.17 18:37:10 INFO  compiling practial 1_f4dd477a3a (1 scala source)
+2024.06.17 18:37:11 INFO  time: Imported build in 2.21s
+2024.06.17 18:37:12 INFO  time: indexed workspace in 0.79s
+2024.06.17 18:37:12 WARN  no build target for: C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala
+2024.06.17 18:37:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:37:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:37:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:37:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:37:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:37:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:37:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:37:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:37:26 WARN  no build target for: C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala
+2024.06.17 18:37:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:39:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:39:50 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:39:50 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:39:50 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:39:50 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:39:51 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:39:51 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:39:51 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:39:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:39:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:39:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:39:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:39:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:39:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:39:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:39:59 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:39:59 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:03 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:03 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:03 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:05 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:05 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:05 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:06 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:06 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:07 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:07 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:07 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:07 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:07 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:08 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:07 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:08 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:08 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:08 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:09 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:15 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:15 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:15 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:15 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:16 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:17 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:17 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:17 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:18 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:17 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:18 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:18 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:18 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:18 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:18 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:21 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:24 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:24 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:24 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:24 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:38 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:38 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:38 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:40 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:43 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:43 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:43 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:43 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:43 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:44 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:44 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:46 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:46 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:46 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:51 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:51 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:52 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:52 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:56 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:56 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:57 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:40:57 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:41:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:41:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:41:03 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:41:03 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:41:08 WARN  no build target for: C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala
+2024.06.17 18:41:08 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:06 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:08 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:09 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:09 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:09 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:28 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:28 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:28 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:32 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:32 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:37 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:37 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:38 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:40 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:40 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:40 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:42 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:42 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:42 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:42 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:44 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:44 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:44 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:44 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:45 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:44 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:44 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:45 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:45 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:45 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:45 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:46 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:46 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:47 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:47 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:50 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:50 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:50 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:52 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:42:52 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:27 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:27 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:27 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:27 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:27 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:28 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:32 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:32 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:32 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:32 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:32 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:33 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:33 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:34 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:33 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:34 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:34 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:40 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:41 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:41 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:42 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:42 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:42 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:43 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:45 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:45 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:46 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:46 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:47 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:47 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:47 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:47 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:48 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:48 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:48 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:48 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:49 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:55 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:56 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:56 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:57 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:59 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:43:59 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:15 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:15 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:17 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:17 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:17 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:18 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:18 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:21 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:21 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:21 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:21 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:27 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:27 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:33 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:33 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:34 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:33 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:34 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:34 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:38 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:38 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:43 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:44 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:44 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:47 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:47 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:47 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:48 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:48 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:50 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:51 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:52 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:52 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:55 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:55 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:57 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:57 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:46:57 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:00 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:00 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:00 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:00 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:02 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:02 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:02 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:02 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:02 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:03 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:05 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:05 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:05 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:15 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:15 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:16 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:16 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:18 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:18 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:18 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:18 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:18 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:24 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:24 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:27 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:27 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:27 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:27 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:27 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:27 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:27 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:27 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jun 17, 2024 6:47:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1303
+2024.06.17 18:47:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:32 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:32 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:32 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:34 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:34 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:34 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:34 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:38 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:38 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:38 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:38 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:40 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:51 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:51 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:52 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:52 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:52 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:55 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:55 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:56 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:56 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:56 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:56 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:56 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:57 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:57 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:59 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:47:58 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:00 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:00 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:00 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:03 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:03 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:03 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:04 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:04 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:05 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:05 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:04 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:05 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:05 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:06 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:06 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:16 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:16 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:24 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:27 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:32 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:33 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:36 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:36 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:36 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:36 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:42 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:42 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:42 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:43 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:43 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:42 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:42 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:43 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:43 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:44 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:44 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:43 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:45 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:45 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:47 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:47 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:47 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:48 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:48 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:48 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:49 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:48 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:48 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:48 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:49 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:49 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:50 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:50 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:50 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:51 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:51 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:51 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:54 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:54 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:54 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:56 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:56 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:56 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:48:56 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:09 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:09 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:14 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:16 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:16 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:17 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:16 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:17 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:17 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:22 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:22 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:22 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:24 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:24 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:28 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:28 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:28 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:28 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:28 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:31 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:36 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:36 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:37 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:37 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:38 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:37 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:38 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:39 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:41 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:41 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:41 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:43 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:43 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:43 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:44 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:46 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:46 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:46 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:53 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jun 17, 2024 6:50:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1996
+2024.06.17 18:50:54 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:54 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:56 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:56 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:57 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:57 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:50:57 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:00 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:00 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:00 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:00 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:01 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:02 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:02 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:07 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:07 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:08 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:08 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:08 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:08 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:08 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:08 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:09 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:09 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:09 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:09 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:09 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:09 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:11 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:12 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:13 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:17 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:17 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:18 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:19 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:21 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:21 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:21 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:20 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:22 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:21 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:21 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:23 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:24 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:25 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:27 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:26 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:32 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:32 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:34 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:34 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:34 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:34 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:35 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:36 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:37 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:37 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:37 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:37 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:41 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:41 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:41 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:41 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:41 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:42 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:41 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:44 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:44 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:44 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:48 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:48 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:48 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:48 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:49 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:51:49 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:52:38 WARN  no build target for: C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala
+2024.06.17 18:52:38 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:54:09 INFO  no build target found for c:\Users\ASUS\Desktop\Scala\Practial 1\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:54:09 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\paractical1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:54:09 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\paractical1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:54:09 INFO  compiling practial 1_f4dd477a3a (1 scala source)
+2024.06.17 18:54:09 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\paractical1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:54:10 INFO  time: indexed workspace in 1.09s
+2024.06.17 18:54:10 WARN  no build target for: C:\Users\ASUS\Desktop\Scala\Practial 1\paractical1.scala
+2024.06.17 18:54:10 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\paractical1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:54:41 WARN  no build target for: C:\Users\ASUS\Desktop\Scala\Practial 1\paractical1.scala
+2024.06.17 18:54:41 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\paractical1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:55:29 INFO  no build target found for c:\Users\ASUS\Desktop\Scala\Practial 1\paractical1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:55:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\practical1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:55:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\practical1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:55:29 INFO  compiling practial 1_f4dd477a3a (1 scala source)
+2024.06.17 18:55:29 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\practical1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:55:30 INFO  time: indexed workspace in 1.02s
+2024.06.17 18:55:30 WARN  no build target for: C:\Users\ASUS\Desktop\Scala\Practial 1\practical1.scala
+2024.06.17 18:55:30 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\practical1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 18:55:50 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\practical1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jun 17, 2024 9:28:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.06.17 21:28:57 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\practical1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 21:29:47 INFO  no build target found for C:\Users\ASUS\Desktop\Scala\Practial 1\practical1.scala. Using presentation compiler with project's scala-library version: 3.3.3
